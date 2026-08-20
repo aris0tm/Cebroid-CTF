@@ -1,0 +1,38 @@
+ctf 
+
+all flag is goin to be in the lang of 
+
+1. gps problem 1. simple picture with the place as a flag 
+eg: FLAG{Place_name}->gio location 
+
+2.Gps modified in the pic but pic shows a diffrent place
+
+3.jpeg extention like crop jpeg in the cropped pic flag is encrypted in base64 val 
+
+4. same crop flag methord but the pass base64 but there is a zip hidden with pass proteted file in there nested fs list of files like jibrish and find one in a 10 files ( otw format)
+
+5 audio steg simple change extention to vid and it shows mirror inveted vid eg: file.mp3 -> file.mp4 ->inveted vid
+
+6. byte code from some lang in the lang hard coded flag reversing reveles flag
+
+7, debug simpe error and program prints flag as a text
+
+8. disk image containing app pkg extracting it revels files in those files continues track of clues points to correct file 
+
+9. audio have a recording of flag said and it was inverted
+
+10. sliff pcap from it seeing what a victim visits
+
+11.password decoding from pcap
+
+12. payload detection from tcp like attack on a server and detection of the log 
+
+13. fingerprinting and deciding  what ai generated pic
+
+creative:
+
+llm injection from a application maybe made with api or sudo ai from prebuilt prompts to demonstrate injection
+
+voice pshishing to coustmer service 
+
+social media investigation
