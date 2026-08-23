@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  pwn01-percentage-panic:
+    build: ./PWN01-percentage-panic
+    ports:
+      - "9001:9001"
+    restart: unless-stopped
+
+  pwn02-system-diagnostics:
+    build: ./PWN02-system-diagnostics
+    ports:
+      - "9002:9002"
+    restart: unless-stopped
+
+  pwn03-message-terminal:
+    build: ./PWN03-message-terminal
+    ports:
+      - "9003:9003"
+    restart: unless-stopped
+
+  pwn04-access-system:
+    build: ./PWN04-access-system
+    ports:
+      - "9004:9004"
+    restart: unless-stopped
+
+  pwn05-user-management:
+    build: ./PWN05-user-management
+    ports:
+      - "9005:9005"
+    restart: unless-stopped

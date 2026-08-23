@@ -1,0 +1,16 @@
+[package]
+name = "access-system"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "chall"
+path = "src/main.rs"
+
+# Deliberately NOT enabling overflow-checks in release profile.
+# This is Rust's actual default behavior for `cargo build --release`,
+# so no special config is even required - but it's spelled out here
+# so nobody "fixes" it by accident.
+[profile.release]
+overflow-checks = false
+debug-assertions = false
