@@ -24,7 +24,7 @@
 
 std::string load_flag() {
     std::ifstream f("flag.txt");
-    std::string flag = "CYBROID{flag_file_missing}";
+    std::string flag = "cebroid{flag_file_missing}";
     if (f.good()) {
         std::getline(f, flag);
     }
