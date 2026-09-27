@@ -1,0 +1,8 @@
+Key Me Maybe: Symmetric Edition
+
+Two files were recovered from the server.
+One contains encrypted data. The other contains... something that looks harmless.
+
+The administrator insists: "The key isn't in the encrypted file." They're technically telling the truth.
+
+Files: encrypted.bin (first 16 bytes = IV, rest = AES-256-CBC ciphertext), backup.cfg

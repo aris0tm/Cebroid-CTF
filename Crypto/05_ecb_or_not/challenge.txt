@@ -1,0 +1,11 @@
+ECB or Not ECB?
+
+The developers wanted military-grade encryption. So they used AES.
+Obviously, that means the data is perfectly secure. Right?
+
+Same plaintext. Same ciphertext. Something feels wrong.
+
+File: encrypted.bmp
+
+The flag is the pattern this file reveals when opened as an image.
+cebroid{ecb_has_no_chill}

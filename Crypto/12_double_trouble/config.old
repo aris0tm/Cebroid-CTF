@@ -1,0 +1,6 @@
+[deployment]
+region=ap-south-1
+retries=3
+cache_ttl=300
+backup_cipher_key=ada50b879dd8bf5f8c6fd5b91689cbec37915b2ccb365842f5cd9565eecc4436
+last_check=2026-02-14

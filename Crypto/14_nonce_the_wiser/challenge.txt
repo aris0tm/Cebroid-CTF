@@ -1,0 +1,12 @@
+Nonce the Wiser
+
+Everything was encrypted using authenticated encryption. The cryptographer was very proud.
+Unfortunately, they reused something that was supposed to be unique.
+
+Nonce the wiser.
+
+Files: ciphertext1, ciphertext2, tag1, tag2, nonce (raw bytes),
+       known_plaintext2.txt (the plaintext of message 2 - a known-plaintext hint,
+       since GCM reuse means XORing the two ciphertexts cancels the keystream)
+
+Goal: recover the flag (message 1's plaintext) via keystream reuse: ct1 XOR ct2 = pt1 XOR pt2.

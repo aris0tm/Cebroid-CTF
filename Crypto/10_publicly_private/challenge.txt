@@ -1,0 +1,7 @@
+Publicly Private
+
+You found the public key. You found the encrypted message. Everything looks fine.
+Except the administrator apparently left another file behind.
+They claim it contains nothing important.
+
+Files: message.enc, public.pem, notes.txt

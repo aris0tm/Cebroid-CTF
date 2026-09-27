@@ -1,0 +1,17 @@
+Crypto Ouroboros
+
+The Ouroboros encrypts its own tail.
+The file has been transformed repeatedly:
+
+    Base64 -> Hex -> XOR(0x5A) -> ROT13 -> AES-128-CBC   (one cycle)
+
+...then again. And again. And again (10 times total, same fixed key/IV every cycle).
+
+Everything can be reversed - nobody's going to decode this by hand though.
+Write a script that automates the reverse process. Stop when you see the marker: CEBROID_FINAL
+
+File: ouroboros.enc
+
+Note: the AES key and IV are the same simple 16-byte ASCII strings on every cycle
+(this is a pattern-recognition & automation puzzle, not a key-cracking one -
+the key material is discoverable from context/organizer hints during the event).

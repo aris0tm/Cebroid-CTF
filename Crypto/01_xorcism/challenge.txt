@@ -1,0 +1,14 @@
+XORcism
+
+Something has possessed this message.
+
+The exorcist discovered that the demon only responds to:
+
+    The Answer to Everything.
+
+Perform an XORcism.
+
+Clue: 42
+
+File: encrypted.txt (hex-encoded ciphertext)
+Flag format: cebroid{...}

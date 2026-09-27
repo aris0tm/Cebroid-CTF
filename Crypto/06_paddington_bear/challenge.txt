@@ -1,0 +1,13 @@
+Paddington Bear
+
+Paddington has a secret message.
+He's willing to decrypt anything you send him.
+After every request, Paddington tells you whether the padding was valid.
+Surely that tiny distinction can't be useful... Can it?
+
+Files:
+  ciphertext.txt - hex(IV || ciphertext) of the encrypted flag
+  oracle.py       - run locally; tells you ONLY "Padding OK" / "Invalid padding"
+                    for any hex blob you feed it. It does not know or print the key.
+
+Goal: recover the flag using only the oracle's OK/Invalid responses (CBC padding oracle attack).

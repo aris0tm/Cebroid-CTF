@@ -1,0 +1,10 @@
+Key Me Maybe
+
+The ciphertext is useless without a key.
+Fortunately, the sender left you a message.
+Unfortunately, they didn't explicitly give you the key.
+
+"It's right there. You just have to read between the lines."
+
+Files: ciphertext.bin (first 16 bytes = IV, rest = AES-256-CBC ciphertext), message.txt
+Key derivation: SHA256(acrostic) -> AES-256 key

@@ -1,0 +1,7 @@
+Two Keys, Two Worlds
+
+Someone wanted the best of both worlds. So they encrypted the message with AES...
+...then encrypted the AES key with RSA. Unfortunately, the files were separated.
+
+Files: payload.enc (IV || AES-256-CBC ciphertext), key.enc (RSA-OAEP encrypted AES key),
+       public.pem, clue.txt (contains the RSA private key, base64-encoded, hidden in a log entry)

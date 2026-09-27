@@ -1,0 +1,8 @@
+Base-ically Not Crypto
+
+This message looks encrypted. Strange characters. No readable text.
+Surely it must be secure.
+
+Base-ically, no.
+
+File: message.txt

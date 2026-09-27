@@ -1,0 +1,11 @@
+Sign of the Times
+
+The signing server is extremely trustworthy. It signs whatever message you give it.
+Two signatures were intercepted. At first glance, everything looks normal.
+But sometimes the smallest detail is the biggest mistake.
+
+Files: public_key.pem, messages.txt, signatures.txt (secp256k1 ECDSA)
+
+Goal: recover the private key (nonce reuse: r1 == r2), then sign a new message
+of your choice to prove key recovery. Submit the recovered private key (hex) as proof;
+the organizer flag is: cebroid{you_signed_your_own_fate}

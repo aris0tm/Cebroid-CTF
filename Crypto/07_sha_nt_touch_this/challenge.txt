@@ -1,0 +1,14 @@
+SHA-n't Touch This
+
+The developers wanted a message authentication system.
+Their brilliant idea: SHA256(secret + message)
+They assure everyone: "Nobody can modify the message without knowing the secret."
+You aren't so sure.
+
+Files:
+  message.txt - the original message ("user=guest")
+  token.txt   - SHA256(secret + message), secret length unknown but assume <= 32 bytes, try lengths
+  verify.py   - run locally to check a forged (message, token) pair. Does not reveal the secret.
+
+Goal: without knowing the secret, forge a message containing "admin=true" with a valid token
+      (SHA-256 length-extension attack).

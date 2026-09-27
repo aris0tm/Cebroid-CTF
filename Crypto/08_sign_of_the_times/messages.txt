@@ -1,0 +1,2 @@
+message1 = transfer:100:to:alice
+message2 = transfer:9999:to:the_flag_signer

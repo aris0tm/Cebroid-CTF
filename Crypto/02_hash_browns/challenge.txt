@@ -1,0 +1,11 @@
+Hash Browns
+
+The cafeteria's new authentication system is finally online.
+
+The developer proudly announced: "All passwords are securely hashed!"
+
+Unfortunately, the chef was responsible for security.
+Apparently... someone forgot the salt.
+
+Crack the admin's password from users.txt.
+The flag is: cebroid{breakfast_without_salt}   (once you've proven you cracked "admin")
