@@ -6,7 +6,7 @@ This document provides a comprehensive solution writeup and reverse engineering 
 
 ## 1. Challenge 1: Obfuscated JavaScript
 
-* **Target Output:** `Cybroid{7h3_m461c_0f_08fuc1c4710n}`
+* **Target Output:** `cebroid{7h3_m461c_0f_08fuc1c4710n}`
 * **Format:** Raw JavaScript Snippet
 
 ### Analysis & Reversing
@@ -50,7 +50,7 @@ print("[+] JS Flag:", flag)
 
 ## 2. Challenge 2: Relocatable C Object File
 
-* **Flag:** `Cybroid{607_fr0m_C}`
+* **Flag:** `cebroid{607_fr0m_C}`
 * **Format:** Relocatable Object File (`challenge.o`)
 
 ### Analysis & Reversing
@@ -93,7 +93,7 @@ print("[+] C Object Flag:", flag)
 
 ## 3. Challenge 3: Java Compiled Bytecode
 
-* **Flag:** `Cybroid{r3v3r51n6_j4v44}`
+* **Flag:** `cebroid{r3v3r51n6_j4v44}`
 * **Format:** Java Compiled Class (`JavaChallenge.class`)
 
 ### Analysis & Reversing
@@ -138,7 +138,7 @@ print("[+] Java Flag:", flag)
 
 ## 4. Challenge 4: Python Bytecode
 
-* **Flag:** `Cybroid{py7h0n_h45_08jc0d3??}`
+* **Flag:** `cebroid{py7h0n_h45_08jc0d3??}`
 * **Format:** Python Bytecode (`py_challenge.pyc`)
 
 ### Analysis & Reversing
@@ -179,7 +179,7 @@ print("[+] Python Flag:", flag)
 
 ## 5. Challenge 5: Native Executable Binary
 
-* **Flag:** `Cybroid{F146_Fr0m_81n4ry}`
+* **Flag:** `cebroid{F146_Fr0m_81n4ry}`
 * **Format:** Executable Binary File (`challenge.bin`)
 
 ### Analysis & Reversing
