@@ -17,7 +17,7 @@ This repository covers challenges across multiple cybersecurity domains:
 
 | Category | Description |
 | :--- | :--- |
-| **Web** | Web application vulnerabilities (SQLi, XSS, SSRF, IDOR, etc.) |
+| **Web** | Web application vulnerabilities |
 | **Crypto** | Classical and modern cryptography puzzles |
 | **Reverse Engineering** | Binary analysis, decompilation, and malware-style puzzles |
 | **Pwn / Binary** | Memory corruption, buffer overflows, and exploitation |
